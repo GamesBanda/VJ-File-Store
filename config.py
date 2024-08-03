@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "26318274"))
 API_HASH = environ.get("API_HASH", "585f48485cf7419844c398d5da226545")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/543abf91dc99cd245ab96.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5207748612').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "HDSXFileeBot") # without @
 PORT = environ.get("PORT", "8080")
